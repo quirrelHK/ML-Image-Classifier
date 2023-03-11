@@ -1,5 +1,5 @@
 # Fatigue-Detection
-This is a personal project thta aims to detect levels of fatigue in a person using facial data. 
+This is a personal project that aims to detect levels of fatigue in a person using facial data. 
 The project uses idea from the paper ["FaceNet: A Unified Embedding for Face Recognition and Clustering"](http://arxiv.org/abs/1503.03832).
 
 ## Description
