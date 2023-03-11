@@ -8,7 +8,7 @@ Long term fatigue may develop into chronic syndrome and eventually harm a person
 Other facial cues like under-eyes, nose, skin and mouth might also help in detecting fatigue. We can use algorithms like Facenet to extract a vector of embeddings for these features. A classification model then can be trained using this data.
 
 ## Proposal
-In this project I aim to develop a efficient way to detect fatigue in person. The goal is to detect fatigue in person using a single. 
+In this project I aim to develop a efficient way to detect fatigue in person. The goal is to detect fatigue in person using a single image. 
 Facial points like eyes, under-eyes, nose, skin and mouth are important for detecting fatigue. We use embedding extracted using Facenet or some other algorithm to train a classification model.
 
 ## Training Data
