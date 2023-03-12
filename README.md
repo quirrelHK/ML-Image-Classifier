@@ -12,7 +12,7 @@ In this project I aim to develop a efficient way to detect fatigue in person. Th
 Facial points like eyes, under-eyes, nose, skin and mouth are important for detecting fatigue. We use embedding extracted using Facenet or some other algorithm to train a classification model.
 
 ## Training Data
-A custom dataset is used for training the model. Train data consist of 317 images for both the classes over 9 identities. After filtering the dataset some performance improvements were seen.
+A custom dataset is used for training the model. Train data consist of 317 images for both the classes over 5 identities. After filtering the dataset some performance improvements were seen.
 
 ## Pre-processing
 
@@ -25,12 +25,12 @@ Although more costly [MTCNN](https://kpzhang93.github.io/MTCNN_face_detection_al
 I used the keras implementation of [Facenet](https://pypi.org/project/keras-facenet/) to extract a vector of embeddings from the cropped images. You can follow up this implementation on this [repo](https://github.com/davidsandberg/facenet).
 
 
-### Training
+## Training
 Extracted features can be normalized before training. But in this case it doesn't seemed to matter much.
 A kernel-SVM is trained using processed data.
 
 
-### Performance 
+## Performance 
 The accuracy on testing set is 86%. 
 The classification report is:
 
@@ -39,5 +39,7 @@ The classification report is:
 |-----|---------|----------|----------|----------|
 |0|     0.91|      0.88|      0.90|        34|
 |1|    0.78 |     0.82 |     0.80 |       17 |
+
+
 
 
