@@ -45,7 +45,7 @@ The model performs well concerning the testing dataset for which the identities 
 Training model for embeddings extracted from entire face of a person leads to overfitting due to which it performs so poorly for new identities.
 
 Instead of extracting embeddings from the entire face we can restrict our ROI to 6 key regions namely, left and right eye, left and right under-eye, nose and mouth.
-Then we can train separate models for each of the embeddings extracted from these regions. We can you this ensemble technique to perform a majority voting based on some criteria to avoid overfitting.
+Then we can train separate models for each of the embeddings extracted from these regions. We can use this ensemble technique to perform a majority voting based on some criteria to avoid overfitting.
 
 
 
