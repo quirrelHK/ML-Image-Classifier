@@ -40,6 +40,13 @@ The classification report is:
 |0|     0.91|      0.88|      0.90|        34|
 |1|    0.78 |     0.82 |     0.80 |       17 |
 
+## Conclusion
+The model performs well concerning the testing dataset for which the identities were same as the train set. I further did some more testing with some new identities that were not part of the training set, in this case the model seemed to perform poorly espicially for "not_tired" category.
+Training model for embeddings extracted from entire face of a person leads to overfitting due to which it performs so poorly for new identities.
+
+Instead of extracting embeddings from the entire face we can restrict our ROI to 6 key regions namely, left and right eye, left and right under-eye, nose and mouth.
+Then we can train separate models for each of the embeddings extracted from these regions. We can you this ensemble technique to perform a majority voting based on some criteria to avoid overfitting.
+
 
 
 
