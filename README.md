@@ -13,7 +13,9 @@ Facial points like eyes, under-eyes, nose, skin and mouth are important for dete
 
 ## Training Data
 A custom dataset is used for training the model. Data consist of 317 images for both the classes which was collected from few volunteers, few images from a couple of online resources are also used in this data. After filtering the dataset some performance improvements were seen.
+
 If you wish to use the data used in this project then please read agreement in the google form below and give your approval.
+
 [Consent form](https://docs.google.com/forms/d/e/1FAIpQLScEH6ky85dOLDHd9Zr-pR7Ufkwzioahjdek_i1Bsct4DRezJw/viewform?vc=0&c=0&w=1&flr=0&fbzx=-7886685058164827048)
 
 ## Pre-processing
