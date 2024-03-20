@@ -33,7 +33,7 @@ A kernel-SVM is trained using processed data.
 
 
 ## Performance 
-The accuracy on testing set is 86%. 
+The accuracy on test set is 83%. 
 The classification report is:
 
 
