@@ -130,3 +130,5 @@ dmypy.json
 
 # Dataset folder
 dataset/
+
+models/
